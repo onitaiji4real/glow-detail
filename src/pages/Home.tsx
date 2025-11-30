@@ -3,12 +3,17 @@ import Highlights from '../components/Highlights';
 import { useLanguage } from '../hooks/useLanguage';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 export default function Home() {
   const { t } = useLanguage();
 
   return (
     <>
+      <SEO 
+        title={t.seo.home.title} 
+        description={t.seo.home.description} 
+      />
       <Hero />
       <Highlights />
       

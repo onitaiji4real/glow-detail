@@ -10,6 +10,12 @@ export interface Content {
     faq: string;
     book: string;
   };
+  seo: {
+    home: { title: string; description: string };
+    services: { title: string; description: string };
+    portfolio: { title: string; description: string };
+    booking: { title: string; description: string };
+  };
   hero: {
     title: string;
     subtitle: string;
@@ -114,6 +120,24 @@ export const content: Record<Language, Content> = {
       process: '服務流程',
       faq: '常見問題',
       book: '立即預約',
+    },
+    seo: {
+      home: { 
+        title: '光感洗車美容 | 頂級手工洗車與鍍膜服務', 
+        description: '提供專業手工洗車、精緻內裝清潔與年度鍍膜服務。讓您的愛車煥然一新，立即預約體驗頂級護理。' 
+      },
+      services: { 
+        title: '服務方案 | 光感洗車美容', 
+        description: '查看我們的詳細服務方案，從基礎泡沫洗車到頂級全車鍍膜，滿足您愛車的所有需求。' 
+      },
+      portfolio: { 
+        title: '作品集 | 光感洗車美容', 
+        description: '瀏覽我們的洗車與鍍膜作品，見證我們對細節的堅持與專業技術。' 
+      },
+      booking: { 
+        title: '線上預約 | 光感洗車美容', 
+        description: '立即線上預約洗車服務，簡單幾步完成預約，享受免排隊的專業服務。' 
+      },
     },
     hero: {
       title: '洗車不只乾淨，更要好看好開。',
@@ -320,6 +344,24 @@ export const content: Record<Language, Content> = {
       process: 'Process',
       faq: 'FAQ',
       book: 'Book Now',
+    },
+    seo: {
+      home: { 
+        title: 'Glow Detail Studio | Premium Hand Wash & Coating', 
+        description: 'Professional hand wash, interior detailing, and ceramic coating services. Book now to give your car the care it deserves.' 
+      },
+      services: { 
+        title: 'Services & Packages | Glow Detail Studio', 
+        description: 'Explore our detailing packages, from basic foam wash to ultimate ceramic coating. Find the perfect service for your vehicle.' 
+      },
+      portfolio: { 
+        title: 'Portfolio | Glow Detail Studio', 
+        description: 'View our gallery of detailed vehicles. See the quality and precision of our work.' 
+      },
+      booking: { 
+        title: 'Book Now | Glow Detail Studio', 
+        description: 'Schedule your detailing appointment online. Fast and easy booking process.' 
+      },
     },
     hero: {
       title: 'More than clean – make your car look and feel amazing.',
