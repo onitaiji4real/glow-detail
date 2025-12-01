@@ -113,7 +113,7 @@ export interface Content {
 export const content: Record<Language, Content> = {
   'zh-TW': {
     nav: {
-      brand: '光感洗車美容',
+      brand: '幫你速汽車美容',
       packages: '服務方案',
       portfolio: '作品集',
       addons: '單點加購',
@@ -123,19 +123,19 @@ export const content: Record<Language, Content> = {
     },
     seo: {
       home: { 
-        title: '光感洗車美容 | 頂級手工洗車與鍍膜服務', 
+        title: '幫你速汽車美容 | 頂級手工洗車與鍍膜服務', 
         description: '提供專業手工洗車、精緻內裝清潔與年度鍍膜服務。讓您的愛車煥然一新，立即預約體驗頂級護理。' 
       },
       services: { 
-        title: '服務方案 | 光感洗車美容', 
+        title: '服務方案 | 幫你速汽車美容', 
         description: '查看我們的詳細服務方案，從基礎泡沫洗車到頂級全車鍍膜，滿足您愛車的所有需求。' 
       },
       portfolio: { 
-        title: '作品集 | 光感洗車美容', 
+        title: '作品集 | 幫你速汽車美容', 
         description: '瀏覽我們的洗車與鍍膜作品，見證我們對細節的堅持與專業技術。' 
       },
       booking: { 
-        title: '線上預約 | 光感洗車美容', 
+        title: '線上預約 | 幫你速汽車美容', 
         description: '立即線上預約洗車服務，簡單幾步完成預約，享受免排隊的專業服務。' 
       },
     },
