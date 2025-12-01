@@ -14,6 +14,9 @@ export default function Footer() {
           <p className="copyright">
             © {new Date().getFullYear()} {t.nav.brand}. All rights reserved.
           </p>
+          <div className="attribution">
+            Designed & Operated by <a href="#" className="attribution-link">維度立方科技 Dimension Cube Tech</a>
+          </div>
         </div>
       </div>
 
@@ -43,6 +46,25 @@ export default function Footer() {
         .copyright {
           color: var(--text-secondary);
           font-size: 0.875rem;
+        }
+
+        .attribution {
+          font-size: 0.75rem;
+          color: var(--text-secondary);
+          opacity: 0.8;
+          margin-top: 0.5rem;
+        }
+
+        .attribution-link {
+          color: var(--text-secondary);
+          text-decoration: none;
+          border-bottom: 1px dotted var(--text-secondary);
+          transition: color 0.2s;
+        }
+
+        .attribution-link:hover {
+          color: var(--accent-primary);
+          border-bottom-color: var(--accent-primary);
         }
       `}</style>
     </footer>

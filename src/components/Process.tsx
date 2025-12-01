@@ -72,12 +72,19 @@ export default function Process() {
           width: 80px;
           height: 80px;
           background-color: var(--card-bg);
+          border: 2px solid var(--border-color);
           border-radius: 50%;
           display: flex;
           align-items: center;
           justify-content: center;
           margin-bottom: 1.5rem;
           box-shadow: var(--shadow-md);
+          transition: border-color 0.3s ease;
+        }
+
+        :global(.dark) .process-icon-wrapper {
+          background-color: rgba(30, 41, 59, 0.8); /* Slightly lighter than bg */
+          border-color: var(--accent-primary); /* Highlight border in dark mode */
         }
 
         .process-icon {
